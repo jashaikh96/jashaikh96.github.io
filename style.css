@@ -1,0 +1,62 @@
+
+body {
+	width: 70%; 
+	margin: auto;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: rgb(0, 124, 128);
+}
+
+a:hover {
+  color: rebeccapurple;
+}
+
+a:active {
+  color: teal;
+}
+
+#navigation {
+  
+}
+
+p {
+  font-size: 120%;
+  color: dimgray;
+}
+
+#contents {
+	float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(75, 58, 58);
+  font-family: sans-serif;
+}
+body {
+  background-color: lightblue;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to white on hover */
+li a:hover {
+  background-color: #fff;
+}
